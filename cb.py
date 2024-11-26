@@ -84,6 +84,7 @@ def generate_response(intent):
 
 
 st.title("Chatbot")
+st.write("chatgpt")
 st.write("chatbot for mental health conversation .")
 
 user_input = st.text_input("You:", "")
